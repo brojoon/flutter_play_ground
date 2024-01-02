@@ -5,6 +5,6 @@ class Upload extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container();
   }
 }

@@ -56,7 +56,7 @@ class MessagePopup extends StatelessWidget {
                           onPressed: cancelCallback,
                           child: Text('취소'),
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.grey,
+                            backgroundColor: Colors.grey,
                           ),
                         )
                     ],
