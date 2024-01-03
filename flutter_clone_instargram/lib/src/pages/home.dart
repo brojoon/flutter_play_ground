@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
               (index) => AvatarWidget(
                     type: AvatarType.TYPE1,
                     thumbPath:
-                        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpiDR537gdwrJASfaDjj5uId0GB4lO5y1qcw&usqp=CAU',
+                        'https://a.cdn-hotels.com/gdcs/production161/d1403/b5f1876a-9e64-4d13-ab7a-a0fd2cbc5224.jpg?impolicy=fcrop&w=1600&h=1066&q=medium',
                   ))
         ]));
   }

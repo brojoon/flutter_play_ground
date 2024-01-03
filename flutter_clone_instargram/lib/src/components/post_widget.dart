@@ -40,7 +40,7 @@ class PostWidget extends StatelessWidget {
     return CachedNetworkImage(
         width: 2000,
         imageUrl:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqQBAUYBAfwyvGCTBMkq6e3XTWiA5MPXBRg&usqp=CAU");
+            "https://a.cdn-hotels.com/gdcs/production72/d1563/ea17ae2b-867f-41c5-bb4f-f2e4582cf777.jpg?impolicy=fcrop&w=1600&h=1066&q=medium");
   }
 
   Widget _infoCount() {
