@@ -1,7 +1,7 @@
 import 'dart:typed_data';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:photo_manager/photo_manager.dart';
 import '../components/image_data.dart';
 
@@ -236,7 +236,7 @@ class _UploadState extends State<Upload> {
             backgroundColor: Colors.white,
             elevation: 0,
             leading: GestureDetector(
-              onTap: () {},
+              onTap: Get.back,
               child: Padding(
                 padding: const EdgeInsets.all(15),
                 child: ImageData(IconsPath.closeImage),

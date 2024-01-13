@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_clone_instargram/src/controller/bottom_nav_controller.dart';
+import 'package:flutter_clone_instargram/src/pages/active_history.dart';
 import 'package:flutter_clone_instargram/src/pages/home.dart';
+import 'package:flutter_clone_instargram/src/pages/mypage.dart';
 import 'package:flutter_clone_instargram/src/pages/search.dart';
 import 'package:get/get.dart';
 import 'components/image_data.dart';
@@ -24,9 +26,9 @@ class App extends GetView<BottomNavController> {
                         builder: (context) => const Search(),
                       );
                     }),
-                Container(child: Center(child: Text('UPLOAD'))),
-                Container(child: Center(child: Text('ACTIVITY'))),
-                Container(child: Center(child: Text('MYPAGE'))),
+                Container(),
+                const ActiveHistory(),
+                const MyPage(),
               ],
             ),
             bottomNavigationBar: BottomNavigationBar(
