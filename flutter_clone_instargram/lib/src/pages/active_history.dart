@@ -65,7 +65,7 @@ class ActiveHistory extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.white,
-        appBar: AppBar(
+        appBar: AppBar(f
             elevation: 0,
             centerTitle: true,
             title: const Text('활동',
